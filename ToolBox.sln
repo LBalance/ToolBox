@@ -12,6 +12,98 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestDynamicLogger", "projec
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{552E911C-BD3D-4E76-AA01-5969F2EDF3AD}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C02CEB66-ACAD-4577-B053-4DDEE9E0953C}"
+	ProjectSection(SolutionItems) = preProject
+		project\Common\Src\AdoObjectPool.cpp = project\Common\Src\AdoObjectPool.cpp
+		project\Common\Src\AdoObjectPool.h = project\Common\Src\AdoObjectPool.h
+		project\Common\Src\bigstring.cpp = project\Common\Src\bigstring.cpp
+		project\Common\Src\bigstring.h = project\Common\Src\bigstring.h
+		project\Common\Src\bufferpool.cpp = project\Common\Src\bufferpool.cpp
+		project\Common\Src\bufferpool.h = project\Common\Src\bufferpool.h
+		project\Common\Src\bufferptr.cpp = project\Common\Src\bufferptr.cpp
+		project\Common\Src\bufferptr.h = project\Common\Src\bufferptr.h
+		project\Common\Src\CriticalSection.cpp = project\Common\Src\CriticalSection.cpp
+		project\Common\Src\CriticalSection.h = project\Common\Src\CriticalSection.h
+		project\Common\Src\Event.cpp = project\Common\Src\Event.cpp
+		project\Common\Src\Event.h = project\Common\Src\Event.h
+		project\Common\Src\FileHelper.cpp = project\Common\Src\FileHelper.cpp
+		project\Common\Src\FileHelper.h = project\Common\Src\FileHelper.h
+		project\Common\Src\FileMapping.cpp = project\Common\Src\FileMapping.cpp
+		project\Common\Src\FileMapping.h = project\Common\Src\FileMapping.h
+		project\Common\Src\FuncHelper.cpp = project\Common\Src\FuncHelper.cpp
+		project\Common\Src\FuncHelper.h = project\Common\Src\FuncHelper.h
+		project\Common\Src\GeneralHelper.cpp = project\Common\Src\GeneralHelper.cpp
+		project\Common\Src\GeneralHelper.h = project\Common\Src\GeneralHelper.h
+		project\Common\Src\InitCOM.cpp = project\Common\Src\InitCOM.cpp
+		project\Common\Src\InitCOM.h = project\Common\Src\InitCOM.h
+		project\Common\Src\IPHelper.cpp = project\Common\Src\IPHelper.cpp
+		project\Common\Src\IPHelper.h = project\Common\Src\IPHelper.h
+		project\Common\Src\PrivateHeap.cpp = project\Common\Src\PrivateHeap.cpp
+		project\Common\Src\PrivateHeap.h = project\Common\Src\PrivateHeap.h
+		project\Common\Src\RingBuffer.cpp = project\Common\Src\RingBuffer.cpp
+		project\Common\Src\RingBuffer.h = project\Common\Src\RingBuffer.h
+		project\Common\Src\RWLock.cpp = project\Common\Src\RWLock.cpp
+		project\Common\Src\RWLock.h = project\Common\Src\RWLock.h
+		project\Common\Src\SE.h = project\Common\Src\SE.h
+		project\Common\Src\Semaphore.cpp = project\Common\Src\Semaphore.cpp
+		project\Common\Src\Semaphore.h = project\Common\Src\Semaphore.h
+		project\Common\Src\Service.cpp = project\Common\Src\Service.cpp
+		project\Common\Src\Service.h = project\Common\Src\Service.h
+		project\Common\Src\Singleton.h = project\Common\Src\Singleton.h
+		project\Common\Src\STLHelper.h = project\Common\Src\STLHelper.h
+		project\Common\Src\SysHelper.cpp = project\Common\Src\SysHelper.cpp
+		project\Common\Src\SysHelper.h = project\Common\Src\SysHelper.h
+		project\Common\Src\Thread.cpp = project\Common\Src\Thread.cpp
+		project\Common\Src\Thread.h = project\Common\Src\Thread.h
+		project\Common\Src\VarConv.cpp = project\Common\Src\VarConv.cpp
+		project\Common\Src\VarConv.h = project\Common\Src\VarConv.h
+		project\Common\Src\WaitFor.cpp = project\Common\Src\WaitFor.cpp
+		project\Common\Src\WaitFor.h = project\Common\Src\WaitFor.h
+		project\Common\Src\Win32Helper.h = project\Common\Src\Win32Helper.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{6B508E8B-C29C-46B4-9FDB-28CFCBE044E4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ConfigurationFile", "ConfigurationFile", "{CCF9D5F2-2AA6-4423-AED0-A22DA857189F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "crypto", "crypto", "{30A77E2B-8E88-4A2A-97F0-0D2AB6684719}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "debug", "debug", "{A0CB185F-D592-4870-B93E-69351072A3AD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "http", "http", "{23A09B81-E1C8-4BD9-96CB-176F5ACEF81E}"
+	ProjectSection(SolutionItems) = preProject
+		project\Common\Src\http\http_parser.c = project\Common\Src\http\http_parser.c
+		project\Common\Src\http\http_parser.h = project\Common\Src\http\http_parser.h
+		project\Common\Src\http\Readme.txt = project\Common\Src\http\Readme.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TrayIcon", "TrayIcon", "{042E7D0C-E046-4566-AED8-C0E19B98676D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "zlib", "zlib", "{D8F1CAE8-EFD9-47DF-BFC1-64F2191A5500}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "INI", "INI", "{43DE76EF-C26A-408B-9C93-8A971B9A1976}"
+	ProjectSection(SolutionItems) = preProject
+		project\Common\Src\ConfigurationFile\INI\Ini.cpp = project\Common\Src\ConfigurationFile\INI\Ini.cpp
+		project\Common\Src\ConfigurationFile\INI\Ini.h = project\Common\Src\ConfigurationFile\INI\Ini.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "xml", "xml", "{9A0F64F0-7B73-4939-89F4-2A23EE5A84B0}"
+	ProjectSection(SolutionItems) = preProject
+		project\Common\Src\ConfigurationFile\Xml\MsXmlVersion.h = project\Common\Src\ConfigurationFile\Xml\MsXmlVersion.h
+		project\Common\Src\ConfigurationFile\Xml\Xml.cpp = project\Common\Src\ConfigurationFile\Xml\Xml.cpp
+		project\Common\Src\ConfigurationFile\Xml\Xml.h = project\Common\Src\ConfigurationFile\Xml\Xml.h
+		project\Common\Src\ConfigurationFile\Xml\XmlNode.cpp = project\Common\Src\ConfigurationFile\Xml\XmlNode.cpp
+		project\Common\Src\ConfigurationFile\Xml\XmlNode.h = project\Common\Src\ConfigurationFile\Xml\XmlNode.h
+		project\Common\Src\ConfigurationFile\Xml\XmlNodes.cpp = project\Common\Src\ConfigurationFile\Xml\XmlNodes.cpp
+		project\Common\Src\ConfigurationFile\Xml\XmlNodes.h = project\Common\Src\ConfigurationFile\Xml\XmlNodes.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tinyXML2", "tinyXML2", "{0E27C56E-50CA-4C0C-AA11-3EFA99896EA4}"
+	ProjectSection(SolutionItems) = preProject
+		project\Common\Src\ConfigurationFile\Tinyxml2\tinyxml2.cpp = project\Common\Src\ConfigurationFile\Tinyxml2\tinyxml2.cpp
+		project\Common\Src\ConfigurationFile\Tinyxml2\tinyxml2.h = project\Common\Src\ConfigurationFile\Tinyxml2\tinyxml2.h
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		cDebug|Win32 = cDebug|Win32
@@ -229,5 +321,18 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C02CEB66-ACAD-4577-B053-4DDEE9E0953C} = {552E911C-BD3D-4E76-AA01-5969F2EDF3AD}
+		{6B508E8B-C29C-46B4-9FDB-28CFCBE044E4} = {552E911C-BD3D-4E76-AA01-5969F2EDF3AD}
+		{CCF9D5F2-2AA6-4423-AED0-A22DA857189F} = {C02CEB66-ACAD-4577-B053-4DDEE9E0953C}
+		{30A77E2B-8E88-4A2A-97F0-0D2AB6684719} = {C02CEB66-ACAD-4577-B053-4DDEE9E0953C}
+		{A0CB185F-D592-4870-B93E-69351072A3AD} = {C02CEB66-ACAD-4577-B053-4DDEE9E0953C}
+		{23A09B81-E1C8-4BD9-96CB-176F5ACEF81E} = {C02CEB66-ACAD-4577-B053-4DDEE9E0953C}
+		{042E7D0C-E046-4566-AED8-C0E19B98676D} = {C02CEB66-ACAD-4577-B053-4DDEE9E0953C}
+		{D8F1CAE8-EFD9-47DF-BFC1-64F2191A5500} = {C02CEB66-ACAD-4577-B053-4DDEE9E0953C}
+		{43DE76EF-C26A-408B-9C93-8A971B9A1976} = {CCF9D5F2-2AA6-4423-AED0-A22DA857189F}
+		{9A0F64F0-7B73-4939-89F4-2A23EE5A84B0} = {CCF9D5F2-2AA6-4423-AED0-A22DA857189F}
+		{0E27C56E-50CA-4C0C-AA11-3EFA99896EA4} = {CCF9D5F2-2AA6-4423-AED0-A22DA857189F}
 	EndGlobalSection
 EndGlobal

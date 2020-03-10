@@ -1,5 +1,7 @@
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2015
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LoggerDLL", "project\LoggerDLL\LoggerDLL.vcxproj", "{39FE5F5B-91C7-4BE8-B95F-42E2EE0DCA1C}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestConsoleLogger", "project\Test\TestConsoleLogger\TestConsoleLogger.vcxproj", "{BB5B8CD0-6DD2-406B-BFC5-5426461946D9}"
@@ -7,6 +9,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestGuiLogger", "project\Test\TestGuiLogger\TestGuiLogger.vcxproj", "{9223A94B-7484-41E2-9E0D-032E72948623}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestDynamicLogger", "project\Test\TestDynamicLogger\TestDynamicLogger.vcxproj", "{9223A94B-7484-41E2-9E0D-032E72948624}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{552E911C-BD3D-4E76-AA01-5969F2EDF3AD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
